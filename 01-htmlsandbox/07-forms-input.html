@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms&input</title>
+</head>
+<body>
+  <form action="xyz.js">
+<!-- Text -->
+    <div>
+  <label for="name">Name</label> <br>
+  <input type="text" id="name" name="name" value="John Doe">
+</div>
+<!-- Email -->
+<div>
+  <label for="email">Email</label> <br>
+  <input type="email" name="email" id="email" placeholder="Enter an email">
+</div>
+<!-- textarea -->
+<div>
+  <label for="message">Message</label> <br>
+  <textarea name="message" id="message" cols="50" rows="10"></textarea>
+</div>
+<!-- Select Option -->
+<div>
+  <label for="sex"></label>
+  <select name="sex" id="sex">
+    <option value="male">Male</option>
+    <option value="female"selected>Female</option>
+    <option value="other">Other</option>
+  </select>
+</div>
+<!-- Number -->
+<div>
+  <label for="age">Age</label> <br>
+  <input type="number" name="age" id="age">
+</div>
+<!-- Date -->
+<div>
+  <label for="birthdate">Birthdate</label> <br>
+  <input type="date" name="birthdate" id="birthdate">
+</div>
+<!-- Radio -->
+<div>
+  <label for="membership">Membership</label> <br>
+  <input type="radio" name="membership" value="simple" id="membership"> Simple
+  <input type="radio" name="membership" value="standart" id="membership" checked> Standart
+  <input type="radio" name="membership" value="pro" id="membership"> Pro
+</div>
+<!-- Checkbox -->
+<div>
+<label for="membership">I like</label> <br>
+<input type="checkbox" name="likes" value="simple" id="likes"> Cat
+<input type="checkbox" name="likes" value="standart" id="likes"> Dog
+<input type="checkbox" name="likes" value="pro" id="likes"> Helicopter
+</div>
+<!-- Input submit -->
+<input type="submit" value="Submit">
+<!-- Button submit tag -->
+<!-- <button type="submit">Submit</button> -->
+<button type="reset">Reset</button>
+
+  </form>
+</body>
+</html>
